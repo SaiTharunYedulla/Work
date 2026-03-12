@@ -40,7 +40,7 @@ public:
         int lmax = 0;
         int rmax = 0;
         int ans = 0;
-        while(l <= r){
+        while(l < r){
             lmax = max(lmax, height[l]);
             rmax = max(rmax, height[r]);
 
